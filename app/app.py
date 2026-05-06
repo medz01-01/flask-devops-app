@@ -15,7 +15,7 @@ def get_db():
 
 @app.route("/")
 def home():
-    return jsonify({"message": "Hello from Flask!", "status": "running"})
+    return jsonify({"message": "Hello from Flask! v2", "status": "running"})
 
 @app.route("/health")
 def health():
